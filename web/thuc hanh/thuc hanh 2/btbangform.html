@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        border: 1px solid black;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4">đăng ký</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><label for="">full name</label></td>
+          <td colspan="2">
+            <input type="text" placeholder="nhap full name" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for=""> username</label></td>
+          <td colspan="2"><input type="text" placeholder="nhap ten" /></td>
+        </tr>
+        <tr>
+          <td><label for="">password</label></td>
+          <td colspan="2">
+            <input type="password" placeholder="nhap mat khau" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">nhap lai password</label></td>
+          <td colspan="2">
+            <input type="password" placeholder="nhap lai mat khau" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">gioi tinh</label></td>
+          <td>
+            <label for="1">nam</label>
+            <input type="radio" name="gender" id="1" />
+            <label for="2">nu</label>
+            <input type="radio" name="gender" id="2" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">ngay sinh</label></td>
+          <td>
+            <select name="" id="">
+              <option value="">ngay 1</option>
+            </select>
+
+            <select name="" id="">
+              <option value="">thang 1</option>
+            </select>
+
+            <select name="" id="">
+              <option value="">nam 2015</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">dia chi</label></td>
+          <td><textarea name="" id="" cols="20" rows="3"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="">avatar</label></td>
+          <td><input type="file" /></td>
+        </tr>
+        <tr>
+          <td><label for="">so thich</label></td>
+          <td>
+          <input type="checkbox"><label for="">xem phim</label>
+          <input type="checkbox"><label for="">the thao </label>
+          <input type="checkbox"><label for="">web</label></td>
+        </tr>
+        <tr style="text-align: center;">
+            <td colspan="2"><button>reset</button>
+            <button>ok</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

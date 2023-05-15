@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.card {
+overflow: hidden;
+padding: 15px;
+  width: 350px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15 )
+}
+.card-content h2 {
+    
+  font-size: 19px;
+  color: #464646;
+  font-weight: 400;
+}
+.card-content p {
+
+
+  font-size: 14px;
+  color: #757575;
+  font-weight: 100;
+}
+.card-content p span {
+  color: #ffd600;
+}
+.card-img{
+    height: 230px;
+}
+.card-img img{
+    height: 230px;
+}
